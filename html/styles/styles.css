@@ -1,0 +1,102 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin:0;
+	padding:0 ;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+#header {
+	background-color: black;
+}
+#logo {
+	float: right;
+	width: 160px;
+	height: 88px;
+	margin: 0;
+}	
+#header h1 {
+	padding: 5px 10px;
+	margin: 0;
+}
+#header h1 a {
+	color:red;
+}
+#navbar {
+	text-align: left;
+	background-color:rgb(236, 230, 221);
+	border-bottom: 1px solid gray;
+}
+#navbar ul{
+	margin: 0;
+	padding: 0;
+}
+#navbar ul li , #navbar a{
+	display: inline-block;
+}
+#navbar a{
+	color: black;
+	padding: 10px 15px;
+}
+#navbar ul li :hover{
+	background-color: orange;
+	font-weight: bold;
+	opacity: 90%;
+}
+
+#main {
+	float: left;
+	width: 55%;
+	border-right: 1px solid lavender;
+	padding: 10px 60px;
+}
+#sidebar{
+	float: left;
+	width: 33%;
+	padding: 10px 20px;
+}
+#footer {
+	clear: both;
+	text-align: center;
+	font-size: .8rem;
+	padding: 30px;
+	margin-bottom: 50px;
+}
+
+#section{
+	display: block;
+}
+#section a {
+    display: block;
+    padding: 6px;
+    border-bottom: 1px solid lightgray;
+    color: black;
+	width: max-content;
+}
+#main h2 {
+	color: darkblue;
+	font-style: italic;
+}
+label{
+	display: inline-block;
+	text-align: right;
+	width: 150px;
+	font-weight:400	;
+}
+
+button{
+	margin-left: 160px;
+	margin-top: 10px;
+}
+#formseperator{
+	margin-top: 10px ;
+}
+
+input{
+	margin-left:10px ;
+}
